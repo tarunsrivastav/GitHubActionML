@@ -30,10 +30,11 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
 
+#Commenting as Graph will not be displayed in GitHubAction Results
 # Plot the predictions against the actual values
-plt.scatter(X_test["sepal_length"], y_test, color='black', label='Actual')
-plt.scatter(X_test["sepal_length"], y_pred, color='blue', label='Predicted')
-plt.xlabel('Sepal Length')
-plt.ylabel('Petal Length')
-plt.legend()
-plt.show()
+#plt.scatter(X_test["sepal_length"], y_test, color='black', label='Actual')
+#plt.scatter(X_test["sepal_length"], y_pred, color='blue', label='Predicted')
+#plt.xlabel('Sepal Length')
+#plt.ylabel('Petal Length')
+#plt.legend()
+#plt.show()
