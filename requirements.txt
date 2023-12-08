@@ -1,0 +1,7 @@
+# requirements.txt
+
+# This file lists the dependencies required for running tests.
+
+pandas 
+scikit-learn 
+matplotlib
